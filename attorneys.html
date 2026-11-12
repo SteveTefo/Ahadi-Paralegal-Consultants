@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Attorneys | Phaladi Mahamotsa Attorneys</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">Phaladi <span>Mahamotsa</span></a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle Menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="practice-areas.html">Services</a></li>
+          <li><a href="attorneys.html" class="active">Attorneys</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <p>Leadership &amp; Counsel</p>
+    <h1>Our Attorneys</h1>
+  </section>
+
+  <section class="section-pad">
+    <div class="container grid-cards">
+      <div class="attorney-card">
+        <img src="images/attorney1.jpg" alt="Kabelo Phaladi">
+        <h3>Kabelo Phaladi</h3>
+        <p class="role-tag">Managing Partner</p>
+        <p>Advising listed entities and private equity funds on complex corporate structuring and governance.</p>
+        <button class="btn-outline" onclick="openModal('modal1')">View Profile</button>
+      </div>
+
+      <div class="attorney-card">
+        <img src="images/attorney2.jpg" alt="Mahamotsa">
+        <h3>Mahamotsa</h3>
+        <p class="role-tag">Senior Director</p>
+        <p>Seasoned litigator specializing in high-stakes commercial disputes and domestic arbitration.</p>
+        <button class="btn-outline" onclick="openModal('modal2')">View Profile</button>
+      </div>
+    </div>
+  </section>
+
+  <div class="modal" id="modal1">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal('modal1')" aria-label="Close">&times;</button>
+      <h2>Kabelo Phaladi</h2>
+      <p class="role-tag">Managing Partner • LLB</p>
+      <ul>
+        <li>Corporate Law &amp; Structuring Specialist</li>
+        <li>Mergers &amp; Acquisitions (M&amp;A)</li>
+        <li>B-BBEE Structuring &amp; Regulatory Advisory</li>
+        <li>Corporate Governance</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="modal" id="modal2">
+    <div class="modal-content">
+      <button class="close" onclick="closeModal('modal2')" aria-label="Close">&times;</button>
+      <h2>Mahamotsa</h2>
+      <p class="role-tag">Senior Director • LLB</p>
+      <ul>
+        <li>High Court Commercial Litigation</li>
+        <li>Commercial Arbitration</li>
+        <li>Complex Contract &amp; Shareholder Disputes</li>
+        <li>Insolvency &amp; Business Rescue</li>
+      </ul>
+    </div>
+  </div>
+
+  <footer>
+    <p>&copy; 2026 <span>Phaladi Mahamotsa Attorneys</span>. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

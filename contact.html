@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Phaladi Mahamotsa Attorneys</title>
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+  <header id="header">
+    <div class="container nav">
+      <a href="index.html" class="logo">Phaladi <span>Mahamotsa</span></a>
+      <button id="menuBtn" class="menu-btn" aria-label="Toggle Menu" aria-expanded="false"><i class="fas fa-bars"></i></button>
+      <nav id="nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="practice-areas.html">Services</a></li>
+          <li><a href="attorneys.html">Attorneys</a></li>
+          <li><a href="testimonials.html">Testimonials</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+          <li><a href="about.html">About</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section class="page-banner">
+    <p>Confidential Consultation</p>
+    <h1>Contact Us</h1>
+  </section>
+
+  <section class="section-pad">
+    <div class="container contact-wrapper">
+      <div class="contact-form-box">
+        <h2 style="font-size: 2rem; margin-bottom: 20px; color: var(--gold-light);">Send an Inquiry</h2>
+        <form id="contactForm" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+          <div class="field-group">
+            <input id="name" name="name" placeholder="Full Name">
+            <small id="nameError" class="error-message"></small>
+          </div>
+
+          <div class="field-group">
+            <input id="email" name="email" type="email" placeholder="Corporate or Personal Email">
+            <small id="emailError" class="error-message"></small>
+          </div>
+
+          <div class="field-group">
+            <textarea id="message" name="message" placeholder="Briefly describe your legal matter..."></textarea>
+            <small id="messageError" class="error-message"></small>
+          </div>
+
+          <button type="submit" id="submitBtn" class="btn">
+            Send Message <i class="fas fa-paper-plane"></i>
+          </button>
+          <div id="form-alert"></div>
+        </form>
+      </div>
+
+      <div class="card">
+        <h3 style="color: var(--gold-bright); margin-bottom: 20px;">Chambers &amp; Direct Contact</h3>
+        <div class="contact-info-list">
+          <p><i class="fas fa-location-dot"></i> Bohlokong, Bethlehem, South Africa</p>
+          <p><i class="fas fa-phone"></i> +27 60 421 2791</p>
+          <p><i class="fas fa-envelope"></i> abrahamaphaladi@gmail.com</p>
+        </div>
+
+        <div class="social-links">
+          <a href="https://www.facebook.com/share/1ApBATtRXa/" class="facebook" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="[https://www.instagram.com/phaladimahamotsalaw](https://www.instagram.com/phaladimahamotsalaw)" class="instagram" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.tiktok.com/@trebleegineeringprojects?_r=1&_t=ZS-948QV3hybsf" class="tiktok" aria-label="TikTok"><i class="fab fa-tiktok"></i></a>
+          <a href="https://wa.me/27604212791" class="whatsapp" aria-label="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+          <a href="[https://www.linkedin.com/company/phaladi-mahamotsa-attorneys](https://www.linkedin.com/company/phaladi-mahamotsa-attorneys)" class="linkedin" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+          <a href="https://x.com/trebleengi27058" class="twitter" aria-label="X"><i class="fab fa-x-twitter"></i></a>
+          <a href="mailto:abrahamaphaladi@gmail.com" class="email" aria-label="Email"><i class="fas fa-envelope"></i></a>
+          <a href="tel:+27604212791" class="phone" aria-label="Call"><i class="fas fa-phone"></i></a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 <span>Phaladi Mahamotsa Attorneys</span>. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
